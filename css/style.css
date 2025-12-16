@@ -25,7 +25,7 @@ img {
 	box-sizing: border-box;
 }
 
-/*Superinfo*/
+/* Superinfo */
 .superinfo-bg {
 	background: #122ab2;
 	color: white;
@@ -48,7 +48,7 @@ img {
 	color: white;
 }
 
-/*Menu*/
+/* Menu */
 .menu-bg {
 	background: #2c70ff;
 }
@@ -88,7 +88,7 @@ img {
 	color: #122ab2;
 }
 
-/*Introdução*/
+/* Introdução */
 .introducao {
 	font-size: 3em;
 	line-height: 1;
@@ -97,7 +97,7 @@ img {
 	padding: 60px 10px;
 }
 
-/*Sobre*/
+/* Sobre */
 .sobre {
 	border-top: 2px solid #2c70ff;
 	border-bottom: 2px solid #2c70ff;
@@ -130,7 +130,7 @@ img {
 	margin: 0 10px;
 }
 
-/*Produtos*/
+/* Produtos */
 .produtos {
 	max-width: 960px;
 	margin: 60px auto;
@@ -171,7 +171,7 @@ img {
 	border-top: 8px solid #66d9eb;
 }
 
-/*Preco*/
+/* Preço */
 .preco {
 	background: #f7f7f7;
 	padding: 60px;
@@ -260,7 +260,7 @@ img {
 	}
 }
 
-/*Qualidade*/
+/* Qualidade */
 .qualidade {
 	max-width: 960px;
 	margin: 60px auto;
@@ -305,7 +305,7 @@ img {
 	color: #7c7c7c;
 }
 
-/*Newsletter*/
+/* Newsletter */
 .newsletter {
 	background: #f7f7f7;
 	padding: 60px calc((100% - 960px) / 2 );
@@ -364,4 +364,25 @@ img {
 	cursor: pointer;
 	border: 0px;
 	padding: 15px 10px;
+}
+
+@media (max-width: 600px) {
+    .newsletter-form button {
+        font-size: 1.5rem;
+    }
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    background: #2c70ff;
+    height: 200px;
+    align-items: center;
+}
+
+.footer p {
+    flex: 1;
+    text-align: center;
+    font-size: 2.25rem;
+    color: #122ab2;
 }
